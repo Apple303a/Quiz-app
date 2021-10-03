@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Title</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+    <div class="quiz-container" id="chartDiv">
+        <div id="questionDiv">
+            <h3 class="quiz-header" id='Question'>This is the question</h3>
+            <ul id="ul">
+                <li><input type="radio" name="nothing" id="a" class="radioBtn"><label for="a" id='a_text' class="labelOption">Option1</label></li>
+                <li><input type="radio" name="nothing" id="b" class="radioBtn"><label for="b" id='b_text' class="labelOption">Option2</label></li>
+                <li><input type="radio" name="nothing" id="c" class="radioBtn"><label for="c" id='c_text' class="labelOption">Option3</label></li>
+                <li><input type="radio" name="nothing" id="d" class="radioBtn"><label for="d" id='d_text' class="labelOption">Option4</label></li>
+            </ul>
+            <button class="submit1" id='Submit1' onclick="submitClicked()">Submit</button>
+            <button class="d-none next" id='Next' onclick="nextQuestion()">Next</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
